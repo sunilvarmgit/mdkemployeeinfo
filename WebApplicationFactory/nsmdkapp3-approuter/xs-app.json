@@ -1,0 +1,12 @@
+{
+	"authenticationMethod": "route",
+	"routes": [
+		{
+			"csrfProtection": false,
+			"source": "^/es5/(.*)$",
+			"target": "$1",
+			"destination": "es5",
+			"authenticationType": "xsuaa"
+		}
+	]
+}

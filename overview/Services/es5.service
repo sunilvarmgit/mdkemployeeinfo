@@ -1,0 +1,9 @@
+{
+    "DestinationName": "es5",
+    "OfflineEnabled": false,
+    "LanguageURLParam": "sap-language",
+    "OnlineOptions": {},
+    "PathSuffix": "/sap/opu/odata/sap/EPM_REF_APPS_PROD_MAN_SRV",
+    "SourceType": "Mobile",
+    "ServiceUrl":""
+}

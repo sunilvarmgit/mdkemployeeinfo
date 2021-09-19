@@ -1,0 +1,9 @@
+{
+    "DestinationName": "com.sunil.referenceapp",
+    "OfflineEnabled": false,
+    "LanguageURLParam": "sap-language",
+    "OnlineOptions": {},
+    "PathSuffix": "/sap/opu/odata/sap/ZI_SERBIND_BOOKING_005",
+    "SourceType": "Mobile",
+    "ServiceUrl":""
+}

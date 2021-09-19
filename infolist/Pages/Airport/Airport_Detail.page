@@ -1,0 +1,53 @@
+{
+    "Caption": "AirportType",
+
+    "ActionBar": {
+        "Items": []
+    },
+    "Controls": [{
+        "Sections": [{
+            "ObjectHeader": {
+                "DetailImage": "",
+                "HeadlineText": "{Name}",
+                "Subhead": "{AirportID}",
+                "Tags": [],
+                "BodyText": "",
+                "Footnote": "{CountryCode}",
+                "Description": "{City}",
+                "StatusText": "",
+                "StatusImage": "",
+                "SubstatusImage": "",
+                "SubstatusText": ""
+            },
+            "_Type": "Section.Type.ObjectHeader"
+        }, {
+            "KeyAndValues": [{
+                    "KeyName": "AirportID",
+                    "Value": "{AirportID}"
+                },
+                {
+                    "KeyName": "Name",
+                    "Value": "{Name}"
+                },
+                {
+                    "KeyName": "City",
+                    "Value": "{City}"
+                },
+                {
+                    "KeyName": "CountryCode",
+                    "Value": "{CountryCode}"
+                }
+            ],
+            "Layout": {
+                "NumberOfColumns": 2
+            },
+            "MaxItemCount": 1,
+            "_Name": "SectionKeyValue0",
+            "_Type": "Section.Type.KeyValue"
+        }],
+        "_Type": "Control.Type.SectionedTable",
+        "_Name": "SectionedTable"
+    }],
+    "_Type": "Page",
+    "_Name": "Airport_Detail"
+}

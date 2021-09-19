@@ -1,0 +1,46 @@
+{
+	"Credential": "cf",
+	"CF": {
+		"Target": "https://api.cf.eu10.hana.ondemand.com",
+		"Organization": "6048b9ab-6b31-458a-a863-d3c9925d01db",
+		"Space": "35f8a132-8b16-4341-8f2a-c34e4cc4a1d1",
+		"Deploy": {
+			"Description": "",
+			"WebClient": {
+				"Version": "",
+				"URL": ""
+			},
+			"Destination": [
+				{
+					"CF": "",
+					"MDK": "com.sunil.referenceapp",
+					"URL": ""
+				}
+			]
+		}
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu10.hana.ondemand.com/cockpit/v1/org/6048b9ab-6b31-458a-a863-d3c9925d01db/space/35f8a132-8b16-4341-8f2a-c34e4cc4a1d1",
+		"AppId": "com.sunil.referenceapp",
+		"Destination": [
+			"com.sunil.referenceapp",
+			"es5"
+		]
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=com.sunil.referenceapp&ClientId=d6156219-da2b-4007-9313-930a27796e28&ServerUrl=https://17b9abbbtrial-dev-com-sunil-referenceapp.cfapps.eu10.hana.ondemand.com&SapCloudPlatformEndpoint=https://17b9abbbtrial-dev-com-sunil-referenceapp.cfapps.eu10.hana.ondemand.com&AuthorizationEndpointUrl=https://17b9abbbtrial-dev-com-sunil-referenceapp.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://17b9abbbtrial-dev-com-sunil-referenceapp.cfapps.eu10.hana.ondemand.com&TokenUrl=https://17b9abbbtrial-dev-com-sunil-referenceapp.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/token"
+	},
+	"LCAP": {
+		"Service": [],
+		"sourceTemplate": {
+			"id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+			"version": "1.40.12"
+		}
+	},
+	"Build": {
+		"SourceMap": true
+	}
+}

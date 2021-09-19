@@ -1,0 +1,57 @@
+{
+    "Caption": "CountryType",
+
+    "ActionBar": {
+        "Items": []
+    },
+    "Controls": [{
+        "Sections": [{
+            "ObjectHeader": {
+                "DetailImage": "",
+                "HeadlineText": "{Country}",
+                "Subhead": "{Country_Text}",
+                "Tags": [],
+                "BodyText": "",
+                "Footnote": "{CountryThreeDigitISOCode}",
+                "Description": "{CountryThreeLetterISOCode}",
+                "StatusText": "{CountryISOCode}",
+                "StatusImage": "",
+                "SubstatusImage": "",
+                "SubstatusText": ""
+            },
+            "_Type": "Section.Type.ObjectHeader"
+        }, {
+            "KeyAndValues": [{
+                    "KeyName": "Country",
+                    "Value": "{Country}"
+                },
+                {
+                    "KeyName": "Country_Text",
+                    "Value": "{Country_Text}"
+                },
+                {
+                    "KeyName": "CountryThreeLetterISOCode",
+                    "Value": "{CountryThreeLetterISOCode}"
+                },
+                {
+                    "KeyName": "CountryThreeDigitISOCode",
+                    "Value": "{CountryThreeDigitISOCode}"
+                },
+                {
+                    "KeyName": "CountryISOCode",
+                    "Value": "{CountryISOCode}"
+                }
+            ],
+            "Layout": {
+                "NumberOfColumns": 2
+            },
+            "MaxItemCount": 1,
+            "_Name": "SectionKeyValue0",
+            "_Type": "Section.Type.KeyValue"
+        }],
+        "_Type": "Control.Type.SectionedTable",
+        "_Name": "SectionedTable"
+    }],
+    "_Type": "Page",
+    "_Name": "Country_Detail"
+}

@@ -1,0 +1,77 @@
+{
+    "Caption": "Supplier",
+
+    "ActionBar": {
+        "Items": []
+    },
+    "Controls": [{
+        "Sections": [{
+            "ObjectHeader": {
+                "DetailImage": "",
+                "HeadlineText": "{Name}",
+                "Subhead": "{Id}",
+                "Tags": [],
+                "BodyText": "",
+                "Footnote": "{Email}",
+                "Description": "{Phone}",
+                "StatusText": "{WebAddress}",
+                "StatusImage": "",
+                "SubstatusImage": "",
+                "SubstatusText": "{FormattedAddress}"
+            },
+            "_Type": "Section.Type.ObjectHeader"
+        }, {
+            "KeyAndValues": [{
+                    "KeyName": "Id",
+                    "Value": "{Id}"
+                },
+                {
+                    "KeyName": "Name",
+                    "Value": "{Name}"
+                },
+                {
+                    "KeyName": "Phone",
+                    "Value": "{Phone}"
+                },
+                {
+                    "KeyName": "Email",
+                    "Value": "{Email}"
+                },
+                {
+                    "KeyName": "WebAddress",
+                    "Value": "{WebAddress}"
+                },
+                {
+                    "KeyName": "FormattedAddress",
+                    "Value": "{FormattedAddress}"
+                },
+                {
+                    "KeyName": "FormattedContactName",
+                    "Value": "{FormattedContactName}"
+                },
+                {
+                    "KeyName": "ContactPhone1",
+                    "Value": "{ContactPhone1}"
+                },
+                {
+                    "KeyName": "ContactPhone2",
+                    "Value": "{ContactPhone2}"
+                },
+                {
+                    "KeyName": "ContactEmail",
+                    "Value": "{ContactEmail}"
+                }
+            ],
+            "Layout": {
+                "NumberOfColumns": 2
+            },
+            "MaxItemCount": 1,
+            "_Name": "SectionKeyValue0",
+            "_Type": "Section.Type.KeyValue"
+        }],
+        "_Type": "Control.Type.SectionedTable",
+        "_Name": "SectionedTable"
+    }],
+    "_Type": "Page",
+    "_Name": "Suppliers_Detail"
+}

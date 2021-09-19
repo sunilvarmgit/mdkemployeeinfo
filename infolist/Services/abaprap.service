@@ -1,0 +1,12 @@
+{
+	"DestinationName": "abaprap",
+	"PathSuffix": "/sap/opu/odata/sap/ZUI_C_TRAVEL_M_002",
+	"LanguageURLParam": "sap-language",
+	"OfflineEnabled": false,
+	"OnlineOptions": {
+		"CSDLOptions": [
+			"ignoreAllReferences"
+		]
+	},
+	"SourceType": "Mobile"
+}
