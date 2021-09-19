@@ -24,8 +24,8 @@
 		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.eu10.hana.ondemand.com/cockpit/v1/org/6048b9ab-6b31-458a-a863-d3c9925d01db/space/35f8a132-8b16-4341-8f2a-c34e4cc4a1d1",
 		"AppId": "com.sunil.referenceapp",
 		"Destination": [
-			"com.sunil.referenceapp",
-			"es5"
+			"es5",
+			"abaprap"
 		]
 	},
 	"Onboarding": {
