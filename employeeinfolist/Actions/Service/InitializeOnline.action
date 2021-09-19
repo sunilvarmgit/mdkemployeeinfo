@@ -1,0 +1,10 @@
+{
+    "Service": "/employeeinfolist/Services/com_sunil_mdk_empinfo.service",
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "OnSuccess": "/employeeinfolist/Actions/Service/InitializeOnlineSuccessMessage.action",
+    "OnFailure": "/employeeinfolist/Actions/Service/InitializeOnlineFailureMessage.action",
+    "ActionResult": {
+        "_Name": "init"
+    }
+}
