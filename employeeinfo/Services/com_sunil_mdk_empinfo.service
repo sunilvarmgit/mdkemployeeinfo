@@ -1,9 +1,11 @@
 {
-    "DestinationName": "com.sunil.mdk.empinfo",
-    "OfflineEnabled": false,
-    "LanguageURLParam": "sap-language",
-    "OnlineOptions": {},
-    "PathSuffix": "",
-    "SourceType": "Mobile",
-    "ServiceUrl":""
+	"DestinationName": "com.sunil.mdk.empinfo",
+	"LanguageURLParam": "sap-language",
+	"OfflineEnabled": false,
+	"OnlineOptions": {
+		"CSDLOptions": [
+			"ignoreAllReferences"
+		]
+	},
+	"SourceType": "Mobile"
 }
