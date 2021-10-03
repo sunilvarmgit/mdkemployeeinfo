@@ -1,0 +1,20 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "Target": {
+        "EntitySet": "Employee",
+        "Service": "/employeecrud/Services/com_sunil_mdk_empinfo.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "Properties": {
+        "Employee_Number": "#Control:Employee_Number/#Value",
+        "First_Name": "#Control:First_Name/#Value",
+        "Last_Name": "#Control:Last_Name/#Value",
+        "User_ID": "#Control:User_ID/#Value"
+    },
+    "UpdateLinks": [],
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": "/employeecrud/Actions/UpdateEntitySuccessMessage.action",
+    "OnFailure": "/employeecrud/Actions/UpdateEntityFailureMessage.action"
+}

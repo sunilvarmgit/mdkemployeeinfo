@@ -1,0 +1,19 @@
+{
+    "CreateLinks": [],
+    "OnFailure": "/employeecrud/Actions/CreateEntityFailureMessage.action",
+    "OnSuccess": "/employeecrud/Actions/CreateEntitySuccessMessage.action",
+    "Properties": {
+        "Employee_Number": "#Control:Employee_Number/#Value",
+        "First_Name": "#Control:First_Name/#Value",
+        "Last_Name": "#Control:Last_Name/#Value",
+        "User_ID": "#Control:User_ID/#Value"
+    },
+    "Target": {
+        "EntitySet": "Employee",
+        "Service": "/employeecrud/Services/com_sunil_mdk_empinfo.service"
+    },
+    "ActionResult": {
+        "_Name": "create"
+    },
+    "_Type": "Action.Type.ODataService.CreateEntity"
+}
