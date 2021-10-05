@@ -1,9 +1,0 @@
-{
-    "Service": "/EmployeeOffline/Services/com_sunil_mdk_empinfo.service",
-    "_Type": "Action.Type.OfflineOData.Upload",
-    "ActionResult": {
-        "_Name": "sync"
-    },
-    "OnSuccess": "/EmployeeOffline/Actions/Service/DownloadStartedMessage.action",
-    "OnFailure": "/EmployeeOffline/Actions/Service/SyncFailureMessage.action"
-}

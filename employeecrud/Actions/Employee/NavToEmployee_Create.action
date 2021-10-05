@@ -1,6 +1,0 @@
-{
-    "ModalPageFullscreen": false,
-    "ModalPage": true,
-    "PageToOpen": "/employeecrud/Pages/Employee/Employee_Create.page",
-    "_Type": "Action.Type.Navigation"
-}

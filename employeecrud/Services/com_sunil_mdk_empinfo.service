@@ -1,7 +1,0 @@
-{
-	"DestinationName": "com.sunil.mdk.empinfo",
-	"LanguageURLParam": "sap-language",
-	"OfflineEnabled": true,
-	"SourceType": "Mobile",
-	"RestService": false
-}
