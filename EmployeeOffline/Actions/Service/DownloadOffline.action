@@ -1,0 +1,12 @@
+{
+    "Service": "/EmployeeOffline/Services/com_sunil_mdk_empinfo.service",
+    "DefiningRequests": [{
+        "Name": "Employee",
+        "Query": "Employee"
+    }],
+    "_Type": "Action.Type.OfflineOData.Download",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnFailure": "/EmployeeOffline/Actions/Service/SyncFailureMessage.action"
+}

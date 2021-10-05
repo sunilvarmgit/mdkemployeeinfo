@@ -1,0 +1,13 @@
+{
+    "Target": {
+        "EntitySet": "Employee",
+        "Service": "/EmployeeOffline/Services/com_sunil_mdk_empinfo.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "OnSuccess": "/EmployeeOffline/Actions/DeleteEntitySuccessMessage.action",
+    "OnFailure": "/EmployeeOffline/Actions/DeleteEntityFailureMessage.action",
+    "ActionResult": {
+        "_Name": "delete"
+    },
+    "_Type": "Action.Type.ODataService.DeleteEntity"
+}

@@ -1,0 +1,10 @@
+{
+    "_Type": "Action.Type.OfflineOData.Close",
+    "Service": "/EmployeeOffline/Services/com_sunil_mdk_empinfo.service",
+    "Force": true,
+    "ActionResult": {
+        "_Name": "close"
+    },
+    "OnSuccess": "/EmployeeOffline/Actions/Service/CloseOfflineSuccessMessage.action",
+    "OnFailure": "/EmployeeOffline/Actions/Service/CloseOfflineFailureMessage.action"
+}
