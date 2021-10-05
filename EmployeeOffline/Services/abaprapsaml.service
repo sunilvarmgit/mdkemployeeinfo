@@ -1,0 +1,11 @@
+{
+	"DestinationName": "abaprapsaml",
+	"LanguageURLParam": "sap-language",
+	"OfflineEnabled": true,
+	"OfflineOptions": {
+		"CSDLOptions": [
+			"ignoreAllReferences"
+		]
+	},
+	"SourceType": "Mobile"
+}

@@ -1,0 +1,15 @@
+{
+    "Service": "/EmployeeOffline/Services/abaprapsaml.service",
+    "DefiningRequests": [{
+        "Name": "Employee",
+        "Query": "Employee"
+    }],
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText": "Downloading...",
+    "ActionResult": {
+        "_Name": "init"
+    },
+    "OnSuccess": "/EmployeeOffline/Actions/Service/InitializeOfflineSuccessMessage.action",
+    "OnFailure": "/EmployeeOffline/Actions/Service/InitializeOfflineFailureMessage.action"
+}
