@@ -88,6 +88,7 @@
 				"Visible": true,
 				"Clickable": true,
 				"SystemItem": "Undo",
+				"ItemType": "Button",
 				"OnPress": "/EmployeeOffline/Actions/Logout.action"
 			}
 		]
