@@ -1,35 +1,38 @@
 {
-	"Caption": "Employee",
-	"ActionBar": {
-		"Items": [
-			{
-				"OnPress": "/EmployeeOffline/Actions/Employee/NavToEmployee_Create.action",
-				"Position": "Right",
-				"SystemItem": "Add"
-			}
-		]
-	},
 	"Controls": [
 		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable",
 			"Sections": [
 				{
 					"Header": {
+						"_Name": "SectionHeader0",
 						"UseTopPadding": false
 					},
+					"_Type": "Section.Type.ObjectTable",
+					"Target": {
+						"EntitySet": "Employee",
+						"Service": "/EmployeeOffline/Services/abaprapsaml.service",
+						"QueryOptions": ""
+					},
+					"_Name": "SectionObjectTable0",
+					"EmptySection": {
+						"FooterVisible": false
+					},
 					"ObjectCell": {
-						"AccessoryType": "disclosureIndicator",
-						"Description": "{Last_Name}",
-						"DetailImage": "",
-						"DetailImageIsCircular": false,
-						"Icons": [],
-						"OnPress": "/EmployeeOffline/Actions/Employee/NavToEmployee_Detail.action",
-						"StatusImage": "",
 						"Title": "{First_Name}",
-						"Footnote": "{User_ID}",
-						"PreserveIconStackSpacing": false,
-						"StatusText": "",
 						"Subhead": "{Employee_Number}",
-						"SubstatusText": ""
+						"Footnote": "{User_ID}",
+						"Description": "{Last_Name}",
+						"DetailImageIsCircular": false,
+						"PreserveIconStackSpacing": false,
+						"AccessoryType": "disclosureIndicator",
+						"OnPress": "/EmployeeOffline/Actions/Employee/NavToEmployee_Detail.action",
+						"ContextMenu": {
+							"Items": [
+							],
+							"PerformFirstActionWithFullSwipe": true
+						}
 					},
 					"Search": {
 						"Enabled": true,
@@ -41,23 +44,53 @@
 					"DataPaging": {
 						"ShowLoadingIndicator": true,
 						"LoadingIndicatorText": "Loading more items, please wait..."
-					},
-					"Target": {
-						"EntitySet": "Employee",
-						"Service": "/EmployeeOffline/Services/abaprapsaml.service",
-						"QueryOptions": ""
-					},
-					"_Type": "Section.Type.ObjectTable"
+					}
 				}
 			],
 			"LoadingIndicator": {
 				"Enabled": true,
 				"Text": "Loading, please wait..."
-			},
-			"_Type": "Control.Type.SectionedTable",
-			"_Name": "SectionedTable"
+			}
 		}
 	],
 	"_Type": "Page",
-	"_Name": "Employee_List"
+	"_Name": "Employee_List",
+	"Caption": "Employee",
+	"ActionBar": {
+		"Items": [
+			{
+				"_Name": "ActionBarItem1",
+				"Caption": "Item",
+				"SystemItem": "Refresh",
+				"Position": "Left",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/EmployeeOffline/Actions/Service/InitializeOffline.action"
+			},
+			{
+				"_Name": "ActionBarItem0",
+				"Caption": "",
+				"SystemItem": "Add",
+				"Position": "Right",
+				"IsIconCircular": false,
+				"OnPress": "/EmployeeOffline/Actions/Employee/NavToEmployee_Create.action"
+			}
+		],
+		"_Name": "ActionBar0"
+	},
+	"ToolBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ToolbarItem",
+				"_Name": "ToolbarItem0",
+				"Caption": "ToolbarItem",
+				"Enabled": true,
+				"Visible": true,
+				"Clickable": true,
+				"SystemItem": "Undo",
+				"ItemType": "Button",
+				"OnPress": "/EmployeeOffline/Actions/Logout.action"
+			}
+		]
+	}
 }
